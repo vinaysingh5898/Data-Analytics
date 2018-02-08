@@ -1,0 +1,28 @@
+##Report of Churn Analysis(Assignment-3,##
+
+libraries used:
+**caret,rpart,C50,party,partykit,
+**randomForest,klaR,ROCR,ggplot2,reshape2,car,corrplot,e1071
+
+Database used-Customer_Churn_Data.csv
+
+Procedure:
+1.Data munging:select the predictor variables and remove unnecessary variables.
+2.Split the database into training and testing set.using createDataPartition function which will give stratified sampling.
+3.Using inbuilt libraries in R , model the data with following method:
+	1.SVM-svm() function
+	2.C5.0-C5.0() function
+	3.Naive Bayesian-NaiveBayes() function
+4.Use plot method to plot the ROC curves
+
+
+JUSTIFICATIONS:
+1.following attributes have predictor variables.They will be helpful in determinig the churn.
+	international_plan attribute
+	voice_mail_plan attribute
+2.createDataPartition method will give stratified result(relative proportions of true and false in 
+  the  target  variable  are  maintained  in  training  and  test  set).
+3.classified  models  using  at  following 3  classification techniques:
+	SVM , C5.0 , Naive Bayesian
+4.Confusion matrices have been created.
+5.Analysing the ROC curve we have observed that C5.0 is the best technique of modelling among the three techniques.

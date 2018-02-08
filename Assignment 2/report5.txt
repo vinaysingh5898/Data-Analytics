@@ -1,0 +1,11 @@
+**REPORT-5**
+
+Language-Python 2.7.12
+
+Libraries imported-
+1.pandas(To use read_excel function)
+2.numpy(inbuilt maths tools)
+3.xlrd(To access xlsx files)
+4.scipy.stats.stats(To calculate pearson coefficient)
+ 
+ 

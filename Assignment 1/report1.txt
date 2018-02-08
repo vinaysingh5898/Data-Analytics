@@ -1,0 +1,25 @@
+**REPORT-1**
+
+Language-Python 2.7.12
+
+Libraries imported-
+1.csv(To read csv data file)
+2.statistics(To calculate arithmetic mean)
+3.math,operator(for mathematical tools)
+4.Scipy(To calculate GM,HM)
+
+a) Carefully observe the data. Apparently what it seems?
+Ans: The speed is increasing continuously and distance value is sometime increasing and sometime decreasing.
+
+b)Which mean calculation has a real significance to the data?
+Ans:speed means are AM  15.4 GM  14.3250064215 HM 12.9615258275
+distance means are AM  42.98 GM  34.3261479627 HM 22.1821427266
+
+AM mean calculation has more significance for speed.
+GM mean calculation has more significance for dist.
+
+c)Do you suggest any other measurement(s) which might be useful implications?
+Ans:We can also find mode and median of data points to find the central tendency of data.
+
+Methodology followed:
+Used the csv module to read data from CARS.csv and inbuilt statistics module to calculate AM of data.Imported stats from scipy and used inbuilt functions to calculate GM and HM.

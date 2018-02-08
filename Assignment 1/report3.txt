@@ -1,0 +1,19 @@
+**REPORT-3**
+
+Language-Python 2.7.12
+
+Libraries imported-
+1.csv(To read data from AUTOMOBILES.csv)
+2.statistics(To find mean,mode,median)
+
+Methodology followed:
+Firstly using csv module the data has been read from AUTOMOBILES.csv 
+Then using the defination of NOIR topology,all the columns have been divided into four categories.
+1.Nominal
+2.Ordinal
+3.Interval
+4.Range
+
+Then one data set from each category is taken and mean,meadian,mode has been calculated.
+
+They are more likely to follow normal distribution.

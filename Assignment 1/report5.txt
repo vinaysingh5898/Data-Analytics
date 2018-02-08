@@ -1,0 +1,13 @@
+**REPORT-5**
+
+Language-Python 2.7.12
+
+Libraries imported-
+1.pandas(To use read_excel function)
+2.numpy(inbuilt maths tools)
+3.xlrd(To access xlsx files)
+
+Methodology followed:
+Firstly WEATHER.pdf has been converted to WEATHER.xlxs.Then using pandas.read_excel function data from WEATHER.xlsx has been read.Then each column data is stored in different list.Then values of maximum temperature,minimum temperature,mean rainfall has been stored in a list for further use.
+ 
+ 

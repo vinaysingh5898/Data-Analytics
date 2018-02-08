@@ -1,0 +1,20 @@
+**REPORT-4**
+
+Language-Python 2.7.12
+
+Libraries imported-
+1.pandas(To use read_excel function)
+2.statistics(To find mean,mode,median)
+3.random(To generate random values)
+
+Methodology followed:
+Firstly using pandas.read_excel function data from IRIS.xlsx has been read.Then each column data is stored in different list.population mean of each list is calculated using statistics.mean function.Then a sample of 50 data points is taken from each data set.Population variance is calculated using statistics.pvariance() function.These results have to be compared with sample variance of each column data. 
+ 
+         sample variance vs poplation variance
+sample variance:  0.685693512304 population variance :  0.6541
+sample variance:  0.188004026846 population variance :  0.157284
+sample variance:  3.11317941834  population variance :  2.989844
+sample variance:  0.582414317673 population variance :  0.494516
+
+
+population variance changes every time we execute the code since we are randomly taking 50 data sets each time.

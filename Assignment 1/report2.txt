@@ -1,0 +1,19 @@
+**REPORT-2**
+
+Language-Python 2.7.12
+
+Libraries imported-
+1.pandas(To use read_excel function)
+2.numpy(mathematical tools)
+3.xlrd(read excel file)
+4.matplotlib(To plot the boxplot)
+
+Methodology followed:
+Used pandas.read_excel function to read data from excel file.Then the retrieved data is stored column-wise in different lists.The data of each column is stored in a seperate list.Then these lists is passed to five_points function which returns the following parameter.
+1.min
+2.max
+3.mean
+4.upper percentile
+5.lower percentile
+
+Then the boxplot of each data set is generated using matplotlib module.To reject outliers anothor function reject_outlier() is used. After that we have to again plot the boxplot and compare both the boxplots.

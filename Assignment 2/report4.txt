@@ -1,0 +1,11 @@
+**REPORT-4**
+
+Language-Python 2.7.12
+
+Libraries imported-
+1.pandas(To use read_excel function)
+2.statistics(To find mean,mode,median)
+3.random(To generate random values)
+4.numpy(mathematcal tools)
+
+

@@ -1,0 +1,24 @@
+**REPORT-1**
+
+Language-Python 2.7.12
+
+Libraries imported-
+1.statistics(To calculate arithmetic mean)
+2.pandas(To read data from excel file)
+3.unicodedata(To convert unicode to float)
+
+Hypothesis proof:
+
+Ho=The popularity of films (as imdb score) increases.
+H1=The popularity of films (as imdb score) not increases.
+
+(1)When std. deviation is known
+mean=6.44
+Now we can calculate the z value using the formaula.
+According to which we failed to reject Ho.
+
+
+(2)When std. deviation is not known
+Now we can calculate the t value using the formula.
+According to which we failed to reject Ho.
+
